@@ -44,14 +44,16 @@
             this.btnAddChannel = new System.Windows.Forms.Button();
             this.cl_Channel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cl_Link = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnDeleteChannel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEmail
             // 
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(75, 55);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(365, 22);
+            this.txtEmail.Size = new System.Drawing.Size(365, 34);
             this.txtEmail.TabIndex = 0;
             // 
             // lableEmail
@@ -69,7 +71,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(70, 146);
+            this.label1.Location = new System.Drawing.Point(70, 171);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(161, 25);
             this.label1.TabIndex = 3;
@@ -78,16 +80,17 @@
             // 
             // txtRecovery
             // 
-            this.txtRecovery.Location = new System.Drawing.Point(75, 174);
+            this.txtRecovery.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRecovery.Location = new System.Drawing.Point(75, 199);
             this.txtRecovery.Name = "txtRecovery";
-            this.txtRecovery.Size = new System.Drawing.Size(365, 22);
+            this.txtRecovery.Size = new System.Drawing.Size(365, 34);
             this.txtRecovery.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(70, 86);
+            this.label2.Location = new System.Drawing.Point(70, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 25);
             this.label2.TabIndex = 5;
@@ -96,9 +99,10 @@
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(75, 114);
+            this.txtPass.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Location = new System.Drawing.Point(75, 127);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(365, 22);
+            this.txtPass.Size = new System.Drawing.Size(365, 34);
             this.txtPass.TabIndex = 4;
             // 
             // btnAuto
@@ -106,7 +110,7 @@
             this.btnAuto.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAuto.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAuto.Location = new System.Drawing.Point(126, 226);
+            this.btnAuto.Location = new System.Drawing.Point(126, 251);
             this.btnAuto.Name = "btnAuto";
             this.btnAuto.Size = new System.Drawing.Size(269, 43);
             this.btnAuto.TabIndex = 6;
@@ -150,9 +154,10 @@
             // 
             // txtChannel
             // 
+            this.txtChannel.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtChannel.Location = new System.Drawing.Point(75, 385);
             this.txtChannel.Name = "txtChannel";
-            this.txtChannel.Size = new System.Drawing.Size(365, 22);
+            this.txtChannel.Size = new System.Drawing.Size(365, 34);
             this.txtChannel.TabIndex = 9;
             // 
             // label5
@@ -168,9 +173,10 @@
             // 
             // txtLink
             // 
+            this.txtLink.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLink.Location = new System.Drawing.Point(75, 458);
             this.txtLink.Name = "txtLink";
-            this.txtLink.Size = new System.Drawing.Size(365, 22);
+            this.txtLink.Size = new System.Drawing.Size(365, 34);
             this.txtLink.TabIndex = 11;
             // 
             // btnAddChannel
@@ -178,12 +184,13 @@
             this.btnAddChannel.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnAddChannel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddChannel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAddChannel.Location = new System.Drawing.Point(126, 518);
+            this.btnAddChannel.Location = new System.Drawing.Point(75, 516);
             this.btnAddChannel.Name = "btnAddChannel";
-            this.btnAddChannel.Size = new System.Drawing.Size(269, 43);
+            this.btnAddChannel.Size = new System.Drawing.Size(365, 43);
             this.btnAddChannel.TabIndex = 13;
             this.btnAddChannel.Text = "Add Channel";
             this.btnAddChannel.UseVisualStyleBackColor = false;
+            this.btnAddChannel.Click += new System.EventHandler(this.btnAddChannel_Click);
             // 
             // cl_Channel
             // 
@@ -201,11 +208,25 @@
             this.cl_Link.Name = "cl_Link";
             this.cl_Link.Width = 125;
             // 
+            // btnDeleteChannel
+            // 
+            this.btnDeleteChannel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnDeleteChannel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteChannel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnDeleteChannel.Location = new System.Drawing.Point(75, 565);
+            this.btnDeleteChannel.Name = "btnDeleteChannel";
+            this.btnDeleteChannel.Size = new System.Drawing.Size(365, 43);
+            this.btnDeleteChannel.TabIndex = 14;
+            this.btnDeleteChannel.Text = "Delete Channel";
+            this.btnDeleteChannel.UseVisualStyleBackColor = false;
+            this.btnDeleteChannel.Click += new System.EventHandler(this.btnDeleteChannel_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1176, 620);
+            this.Controls.Add(this.btnDeleteChannel);
             this.Controls.Add(this.btnAddChannel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtLink);
@@ -246,5 +267,6 @@
         private System.Windows.Forms.Button btnAddChannel;
         private System.Windows.Forms.DataGridViewTextBoxColumn cl_Channel;
         private System.Windows.Forms.DataGridViewTextBoxColumn cl_Link;
+        private System.Windows.Forms.Button btnDeleteChannel;
     }
 }

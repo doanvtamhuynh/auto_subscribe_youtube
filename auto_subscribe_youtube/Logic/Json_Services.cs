@@ -24,7 +24,7 @@ namespace auto_subscribe_youtube.Logic
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"Exception",MessageBoxButtons.OK);
+                MessageBox.Show(ex.Message,"Exception",MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return null;
             }
         }
@@ -40,7 +40,7 @@ namespace auto_subscribe_youtube.Logic
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK);
+                MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
         }

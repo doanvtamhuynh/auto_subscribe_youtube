@@ -8,9 +8,9 @@ namespace auto_subscribe_youtube.Model
 {
     internal class EmailAccount
     {
-        private string email {  get; set; }
-        private string password { get; set; }
-        private string recovery { get; set; }
+        public string email {  get; set; }
+        public string password { get; set; }
+        public string recovery { get; set; }
 
         public EmailAccount() { }
         public EmailAccount(string email, string password, string recovery)

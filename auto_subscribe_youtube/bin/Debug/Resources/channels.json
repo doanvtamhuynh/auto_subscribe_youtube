@@ -1,15 +1,19 @@
 [
   {
-  "channel": "MrBeast",
-  "link": "https://www.youtube.com/@MrBeast"
+    "channel": "MrBeast",
+    "link": "https://www.youtube.com/@MrBeast"
   },
   {
     "channel": "MixiGaming",
     "link": "https://www.youtube.com/@MixiGaming3con"
   },
   {
-    "channel": "Thay Giao Ba",
+    "channel": "Thầy Giáo Ba",
     "link": "https://www.youtube.com/@thaygiaoba6325"
+  },
+  {
+    "channel": "EvB Records",
+    "link": "https://www.youtube.com/@EvBRecords"
   },
   {
     "channel": "EminemMusic",
