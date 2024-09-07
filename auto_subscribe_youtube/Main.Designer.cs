@@ -187,6 +187,7 @@
             // 
             // cl_Channel
             // 
+            this.cl_Channel.DataPropertyName = "channel";
             this.cl_Channel.HeaderText = "Channel";
             this.cl_Channel.MinimumWidth = 6;
             this.cl_Channel.Name = "cl_Channel";
@@ -194,6 +195,7 @@
             // 
             // cl_Link
             // 
+            this.cl_Link.DataPropertyName = "link";
             this.cl_Link.HeaderText = "Link";
             this.cl_Link.MinimumWidth = 6;
             this.cl_Link.Name = "cl_Link";

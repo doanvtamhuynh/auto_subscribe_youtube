@@ -8,8 +8,8 @@ namespace auto_subscribe_youtube.Model
 {
     internal class Youtube
     {
-        private string channel {  get; set; }
-        private string link { get; set; }
+        public string channel {  get; set; }
+        public string link { get; set; }
 
         public Youtube() { }
 

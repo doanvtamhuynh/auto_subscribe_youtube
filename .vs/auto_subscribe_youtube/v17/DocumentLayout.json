@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\logic\\json_services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\logic\\json_services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.Designer.cs",
-              "DocumentMoniker": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.Designer.cs",
-              "RelativeDocumentMoniker": "auto_subscribe_youtube\\Main.Designer.cs",
-              "ToolTip": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.Designer.cs",
-              "RelativeToolTip": "auto_subscribe_youtube\\Main.Designer.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:50:58.353Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,7 +36,7 @@
               "RelativeDocumentMoniker": "auto_subscribe_youtube\\Main.cs",
               "ToolTip": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.cs",
               "RelativeToolTip": "auto_subscribe_youtube\\Main.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA2AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T08:50:35.185Z",
               "EditorCaption": ""
@@ -57,6 +44,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Json_Services.cs",
+              "DocumentMoniker": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Logic\\Json_Services.cs",
+              "RelativeDocumentMoniker": "auto_subscribe_youtube\\Logic\\Json_Services.cs",
+              "ToolTip": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Logic\\Json_Services.cs",
+              "RelativeToolTip": "auto_subscribe_youtube\\Logic\\Json_Services.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T09:06:15.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.cs",
               "RelativeDocumentMoniker": "auto_subscribe_youtube\\Main.cs",
