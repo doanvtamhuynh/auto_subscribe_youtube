@@ -1,0 +1,10 @@
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\auto_subscribe_youtube.exe.config
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\auto_subscribe_youtube.exe
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\auto_subscribe_youtube.pdb
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\obj\Debug\auto_subscribe_youtube.csproj.AssemblyReference.cache
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\obj\Debug\auto_subscribe_youtube.Main.resources
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\obj\Debug\auto_subscribe_youtube.Properties.Resources.resources
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\obj\Debug\auto_subscribe_youtube.csproj.GenerateResource.cache
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\obj\Debug\auto_subscribe_youtube.csproj.CoreCompileInputs.cache
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\obj\Debug\auto_subscribe_youtube.exe
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\obj\Debug\auto_subscribe_youtube.pdb
