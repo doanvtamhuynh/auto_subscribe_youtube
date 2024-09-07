@@ -15,6 +15,8 @@ namespace auto_subscribe_youtube
         public Main()
         {
             InitializeComponent();
+            dataGridView1.Columns["cl_Channel"].Width = 100;
+            dataGridView1.Columns["cl_Link"].Width = 300;
         }
     }
 }

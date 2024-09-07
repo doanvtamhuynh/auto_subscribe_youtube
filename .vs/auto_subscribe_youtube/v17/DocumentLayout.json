@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\MyProject\\auto_subscribe_youtube\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|d:\\myproject\\auto_subscribe_youtube\\auto_subscribe_youtube\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B617D86-78D8-4F1C-820C-E702658F9684}|auto_subscribe_youtube\\auto_subscribe_youtube.csproj|solutionrelative:auto_subscribe_youtube\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +30,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Program.cs",
-              "RelativeDocumentMoniker": "auto_subscribe_youtube\\Program.cs",
-              "ToolTip": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Program.cs",
-              "RelativeToolTip": "auto_subscribe_youtube\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "DocumentIndex": 2,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "auto_subscribe_youtube\\Main.Designer.cs",
+              "ToolTip": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.Designer.cs",
+              "RelativeToolTip": "auto_subscribe_youtube\\Main.Designer.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T08:33:27.439Z",
+              "WhenOpened": "2024-09-07T08:50:58.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.cs",
+              "RelativeDocumentMoniker": "auto_subscribe_youtube\\Main.cs",
+              "ToolTip": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.cs",
+              "RelativeToolTip": "auto_subscribe_youtube\\Main.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T08:50:35.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "D:\\MyProject\\auto_subscribe_youtube\\auto_subscribe_youtube\\Main.cs",
               "RelativeDocumentMoniker": "auto_subscribe_youtube\\Main.cs",
