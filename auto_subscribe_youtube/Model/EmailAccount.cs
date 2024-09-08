@@ -10,14 +10,12 @@ namespace auto_subscribe_youtube.Model
     {
         public string email {  get; set; }
         public string password { get; set; }
-        public string recovery { get; set; }
 
         public EmailAccount() { }
-        public EmailAccount(string email, string password, string recovery)
+        public EmailAccount(string email, string password)
         {
             this.email = email;
             this.password = password;
-            this.recovery = recovery;
         }
     }
 }

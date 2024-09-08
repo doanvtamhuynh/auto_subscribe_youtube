@@ -8,6 +8,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -18,6 +19,8 @@ namespace auto_subscribe_youtube
         string _channelsPath = AppDomain.CurrentDomain.BaseDirectory.ToString() + "\\Resources\\";
         List<Youtube> _youtubes;
         Json_Services _JsonServices = new Json_Services();
+        string _email;
+        string _password;
         public Main()
         {
             InitializeComponent();
@@ -43,6 +46,7 @@ namespace auto_subscribe_youtube
         {
             try
             {
+                btnAddChannel.Enabled = false;
                 string channel = txtChannel.Text;
                 string link = txtLink.Text;
 
@@ -66,6 +70,10 @@ namespace auto_subscribe_youtube
             {
                 MessageBox.Show(ex.Message,"Exception",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
+            finally
+            {
+                btnAddChannel.Enabled = true;
+            }
         }
 
         private void btnDeleteChannel_Click(object sender, EventArgs e)
@@ -78,6 +86,7 @@ namespace auto_subscribe_youtube
             {
                 try
                 {
+                    btnDeleteChannel.Enabled = false;
                     List<int> rowsToRemove = new List<int>();
                     foreach (DataGridViewRow row in dataGridView1.Rows)
                     {
@@ -100,7 +109,64 @@ namespace auto_subscribe_youtube
                 {
                     MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+                finally
+                {
+                    btnDeleteChannel.Enabled = true;
+                }
             }
+        }
+
+        private void btnAuto_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                btnAuto.Enabled = false;
+                _email = txtEmail.Text;
+                _password = txtPass.Text;
+                if(_email != "" && _password != "")
+                {
+                    Google_Services.OpenGoogle();
+                    Thread.Sleep(5000);
+                    Google_Services.LoginGoogle(new EmailAccount(_email, _password));
+                    Thread.Sleep(5000);
+                }
+                else
+                {
+                    MessageBox.Show("Email, Password or Recovery Is Empty!!!", "Empty", MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            { 
+                    MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            finally
+            {
+                btnAuto.Enabled = true;
+            }
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = MessageBox.Show("Are you sure you want to stop?"
+                                        , "Confirm Stop"
+                                        , MessageBoxButtons.YesNo
+                                        , MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    btnStop.Enabled = false;
+                    Google_Services.CloseGoogle();
+                }
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            finally
+            {
+                btnStop.Enabled = true;
+            }
+
         }
     }
 }

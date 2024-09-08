@@ -29,3 +29,9 @@ D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\System.Text
 D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\System.Text.Json.xml
 D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\System.ValueTuple.xml
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\selenium-manager\linux\selenium-manager
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\selenium-manager\macos\selenium-manager
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\WebDriver.dll
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\WebDriver.xml
+D:\MyProject\auto_subscribe_youtube\auto_subscribe_youtube\bin\Debug\SeleniumExtras.WaitHelpers.dll
