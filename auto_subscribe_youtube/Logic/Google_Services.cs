@@ -64,8 +64,8 @@ namespace auto_subscribe_youtube.Logic
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"Exception",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                 CloseGoogle();
+                MessageBox.Show(ex.Message,"Exception",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                 return false;
             }
         }
@@ -103,8 +103,8 @@ namespace auto_subscribe_youtube.Logic
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 CloseGoogle();
+                MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             finally
             {
