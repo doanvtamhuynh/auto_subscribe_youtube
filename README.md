@@ -1,21 +1,21 @@
-# Tự Động Đăng Nhập và Đăng Ký Kênh YouTube bằng Selenium và WinForms
+# Automated YouTube Login and Channel Subscription Using Selenium and WinForms
 
-Dự án này sử dụng Selenium WebDriver để tự động hóa quá trình đăng nhập và đăng ký kênh YouTube thông qua một ứng dụng Windows Forms. Ứng dụng này giúp tiết kiệm thời gian và công sức trong việc thực hiện các tác vụ lặp đi lặp lại trên YouTube.
+This project uses Selenium WebDriver to automate the process of logging into Google and subscribing to YouTube channels through a Windows Forms application. This tool helps save time and effort by automating repetitive tasks on YouTube.
 
-## Tính Năng
+## Features
 
-- **Đăng Nhập Tự Động**: Tự động nhập thông tin đăng nhập vào trang Google.
-- **Đăng Ký Kênh YouTube**: Tự động đăng ký các kênh YouTube theo danh sách cung cấp.
+- **Automated Login**: Automatically inputs login credentials on Google sign-in page.
+- **Channel Subscription**: Automatically subscribes to YouTube channels based on a provided list.
 
-## Yêu Cầu
+## Requirements
 
-- **.NET Framework**: Đảm bảo bạn đã cài đặt .NET Framework phiên bản yêu cầu.
-- **Selenium WebDriver**: Cài đặt Selenium WebDriver để tương tác với trình duyệt.
-- **Trình duyệt Web**: Chrome.
+- **.NET Framework**: Ensure you have the required version of .NET Framework installed.
+- **Selenium WebDriver**: Install Selenium WebDriver for browser interaction.
+- **Web Browser**: Chrome.
 
-## Cài Đặt
+## Installation
 
 1. **Clone Repository**
 
    ```bash
-   https://github.com/doanvtamhuynh/auto_subscribe_youtube.git
+   git clone https://github.com/doanvtamhuynh/auto_subscribe_youtube.git
