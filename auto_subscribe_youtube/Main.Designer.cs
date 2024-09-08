@@ -91,9 +91,9 @@
             this.btnAuto.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAuto.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAuto.Location = new System.Drawing.Point(84, 188);
+            this.btnAuto.Location = new System.Drawing.Point(75, 188);
             this.btnAuto.Name = "btnAuto";
-            this.btnAuto.Size = new System.Drawing.Size(216, 43);
+            this.btnAuto.Size = new System.Drawing.Size(225, 43);
             this.btnAuto.TabIndex = 6;
             this.btnAuto.Text = "Auto Subscribe";
             this.btnAuto.UseVisualStyleBackColor = false;

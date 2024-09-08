@@ -16,11 +16,12 @@ namespace auto_subscribe_youtube
 {
     public partial class Main : Form
     {
-        string _channelsPath = AppDomain.CurrentDomain.BaseDirectory.ToString() + "\\Resources\\";
-        List<Youtube> _youtubes;
-        Json_Services _JsonServices = new Json_Services();
-        string _email;
-        string _password;
+        private string _channelsPath = AppDomain.CurrentDomain.BaseDirectory.ToString() + "\\Resources\\";
+        private List<Youtube> _youtubes;
+        private Json_Services _JsonServices = new Json_Services();
+        private string _email;
+        private string _password;
+        private CancellationTokenSource _cts;
         public Main()
         {
             InitializeComponent();
@@ -116,8 +117,11 @@ namespace auto_subscribe_youtube
             }
         }
 
-        private void btnAuto_Click(object sender, EventArgs e)
+        private async void btnAuto_Click(object sender, EventArgs e)
         {
+            _cts = new CancellationTokenSource();
+            CancellationToken token = _cts.Token;
+
             try
             {
                 btnAuto.Enabled = false;
@@ -126,9 +130,12 @@ namespace auto_subscribe_youtube
                 if(_email != "" && _password != "")
                 {
                     Google_Services.OpenGoogle();
+                    var result = Google_Services.LoginGoogle(new EmailAccount(_email, _password));
                     Thread.Sleep(5000);
-                    Google_Services.LoginGoogle(new EmailAccount(_email, _password));
-                    Thread.Sleep(5000);
+                    if (result)
+                    {
+                        await Task.Run(() => Google_Services.Subscribe(_youtubes, token), token);
+                    }
                 }
                 else
                 {
@@ -156,7 +163,10 @@ namespace auto_subscribe_youtube
                 if (result == DialogResult.Yes)
                 {
                     btnStop.Enabled = false;
-                    Google_Services.CloseGoogle();
+                    if (_cts != null)
+                    {
+                        _cts.Cancel();
+                    }
                 }
             }catch (Exception ex)
             {
